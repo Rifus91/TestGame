@@ -8,6 +8,7 @@ namespace TestGame
         static void Main(string[] args)
         {
             new GameEngine().StartGame(States.StateType.Idle);
+        
         }
     }
 }
