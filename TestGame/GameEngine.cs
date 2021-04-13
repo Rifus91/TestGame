@@ -13,7 +13,6 @@ namespace TestGame
 
         public GameEngine()
         {
-            //states.Add(StateType.Test1, new TestState_1());
             states.Add(StateType.Burn, new StateBurn());
             states.Add(StateType.Heal, new StateHeal());
             states.Add(StateType.Idle, new IdleState());
